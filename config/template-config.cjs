@@ -12,15 +12,15 @@ const TEMPLATE_CONFIG = [
 
       城市：{{city.DATA}}
       
-      天气：{{tian_api_weather_weather_0.DATA}}{{tian_api_weather_real_0.DATA}}
+      天气：{{tian_api_weather_weather_0.DATA}}   气温：{{tian_api_weather_real_0.DATA}}
       
       气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
       
-      风向: {{tian_api_weather_wind_0.DATA}}风级: {{tian_api_weather_windsc_0.DATA}}
+      风向: {{tian_api_weather_wind_0.DATA}}   风级: {{tian_api_weather_windsc_0.DATA}}
       
-      湿度：{{tian_api_weather_humidity_0.DATA}}紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
+      湿度：{{tian_api_weather_humidity_0.DATA}}   紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
-      降雨概率：{{tian_api_weather_pop_0.DATA}}降雨量：{{tian_api_weather_pcpn_0.DATA}}空气质量：{{aqi.DATA}}
+      降雨概率：{{tian_api_weather_pop_0.DATA}}   降雨量：{{tian_api_weather_pcpn_0.DATA}}   空气质量：{{aqi.DATA}}
       
       预防感冒提醒：{{ganmao.DATA}}
       
@@ -28,17 +28,17 @@ const TEMPLATE_CONFIG = [
 
 ---
 
-      课表：
+      **课表：**
       
-      1.**{{wx_course_schedule_0.DATA}}**
+      1.{{wx_course_schedule_0.DATA}}
       
-      2.**{{wx_course_schedule_1.DATA}}**
+      2.{{wx_course_schedule_1.DATA}}
       
-      3.**{{wx_course_schedule_2.DATA}}**
+      3.{{wx_course_schedule_2.DATA}}
       
-      4.**{{wx_course_schedule_3.DATA}}**
+      4.{{wx_course_schedule_3.DATA}}
       
-      5.**{{wx_course_schedule_4.DATA}}**
+      5.{{wx_course_schedule_4.DATA}}
 
 ---
 
@@ -48,9 +48,9 @@ const TEMPLATE_CONFIG = [
 
 ---
 
-      {{moment_copyrighting.DATA}}
+      {{earthy_love_words.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      今天又是爱你的一天
     `
   },
   {
