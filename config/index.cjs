@@ -9,8 +9,6 @@ const USER_CONFIG = {
   USE_PASSAGE: 'push-deer',
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
-  TIAN_API: '7931f6975d59b5fbede106665a75b793',
-  APIKEY: '7931f6975d59b5fbede106665a75b793',
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
   PROVINCE: '青岛',
@@ -25,8 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      TIAN_API: '7931f6975d59b5fbede106665a75b793',
-      APIKEY: '7931f6975d59b5fbede106665a75b793',
+
       horoscopeDate: '04-19',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
