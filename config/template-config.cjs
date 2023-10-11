@@ -7,9 +7,9 @@ const TEMPLATE_CONFIG = [
       **{{tian_api_weather_date_0.DATA}}{{tian_api_weather_week_0.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
-      
-      ---
-      
+
+---
+
       城市：{{city.DATA}}
       
       天气：{{tian_api_weather_weather_0.DATA}}{{tian_api_weather_real_0.DATA}}
@@ -25,29 +25,29 @@ const TEMPLATE_CONFIG = [
       预防感冒提醒：{{ganmao.DATA}}
       
       生活指数提示：{{tian_api_weather_tips_0.DATA}}
-      
-      ---
-      
+
+---
+
       课表：
       
-      1.{{wx_course_schedule_0.DATA}}
+      1.**{{wx_course_schedule_0.DATA}}**
       
-      2.{{wx_course_schedule_1.DATA}}
+      2.**{{wx_course_schedule_1.DATA}}**
       
-      3.{{wx_course_schedule_2.DATA}}
+      3.**{{wx_course_schedule_2.DATA}}**
       
-      4.{{wx_course_schedule_3.DATA}}
+      4.**{{wx_course_schedule_3.DATA}}**
       
-      5.{{wx_course_schedule_4.DATA}}
-      
-      ---
-      
+      5.**{{wx_course_schedule_4.DATA}}**
+
+---
+
       今天是我们相识的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
-      
-      ---
-      
+
+---
+
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
@@ -58,9 +58,9 @@ const TEMPLATE_CONFIG = [
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
-      
-      ---
-      
+
+---
+
       共推送 {{need_post_num.DATA}} 人
       
       成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
