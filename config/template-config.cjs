@@ -27,8 +27,19 @@ const TEMPLATE_CONFIG = [
       生活指数提示：{{tian_api_weather_tips_0.DATA}}
             
       ---
+      
       课表：
-      课表：{{wx_course_schedule_0.DATA}}
+      
+      1.{{wx_course_schedule_0.DATA}}
+      
+      2.{{wx_course_schedule_1.DATA}}
+      
+      3.{{wx_course_schedule_2.DATA}}
+      
+      4.{{wx_course_schedule_3.DATA}}
+      
+      5.{{wx_course_schedule_4.DATA}}
+      
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
