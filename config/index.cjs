@@ -60,6 +60,9 @@ const USER_CONFIG = {
           type: '生日', name: '吕口口', year: '2005', date: '03-11',
         },
         {
+          type: '节日', name: '恋爱纪念日', year: '2023', date: '05-20',
+        },
+        {
           type: '节日', name: '相识纪念日', year: '2023', date: '05-01',
         },
       ],
@@ -67,8 +70,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2023-05-20' },
-        // 结婚纪念日
-        //{ keyword: 'marry_day', date: '2022-09-09' },
+        // 相识纪念日
+        { keyword: 'meet_day', date: '2023-05-01' },
       ],
     },
   ],
