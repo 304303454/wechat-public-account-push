@@ -25,7 +25,7 @@ const TEMPLATE_CONFIG = [
       预防感冒提醒：{{ganmao.DATA}}
       
       生活指数提示：{{tian_api_weather_tips_0.DATA}}
-            
+      
       ---
       
       课表：
