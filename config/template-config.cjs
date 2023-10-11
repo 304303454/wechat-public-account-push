@@ -50,7 +50,7 @@ const TEMPLATE_CONFIG = [
 
       {{earthy_love_words.DATA}}
       
-      今天又是爱你的一天
+      今天又是爱你的一天！
     `
   },
   {
