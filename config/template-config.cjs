@@ -19,7 +19,6 @@ const TEMPLATE_CONFIG = [
       空气质量：{{aqi.DATA}}
       预防感冒提醒：{{ganmao.DATA}}
       天气温馨语：{{notice.DATA}}
-      生活指数提示：{{tian_api_weather_tips_{offset}.DATA}}
       
       ---
       
