@@ -33,7 +33,7 @@ const USER_CONFIG = {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: true,
   }
-    TIAN_API: {
+  TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'PDU25939TI9oq1V9T5Nn3TGCp4BYSzTzowPnXMsDM',
     
