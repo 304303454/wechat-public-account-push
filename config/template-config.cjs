@@ -4,7 +4,7 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '乖乖, 早上好',
     desc: `
-      **{{date.DATA}}**
+      **{{tian_api_weather_date_0.DATA}}{{tian_api_weather_week_0.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -12,22 +12,23 @@ const TEMPLATE_CONFIG = [
       
       城市：{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      天气：{{tian_api_weather_weather_0.DATA}}{{tian_api_weather_real_0.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温(最高/最低):{{tian_api_weather_highest_0.DATA}} / {{tian_api_weather_lowest_0.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      风向: {{tian_api_weather_wind_0.DATA}}风级: {{tian_api_weather_windsc_0.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      湿度：{{tian_api_weather_humidity_0.DATA}}紫外线强度：{{tian_api_weather_uv_index_0.DATA}}
       
-      湿度：{{shidu.DATA}}
-      
-      空气质量：{{aqi.DATA}}
+      降雨概率：{{tian_api_weather_pop_0.DATA}}降雨量：{{tian_api_weather_pcpn_0.DATA}}空气质量：{{aqi.DATA}}
       
       预防感冒提醒：{{ganmao.DATA}}
       
-      天气温馨语：{{notice.DATA}}
-      
+      生活指数提示：{{tian_api_weather_tips_0.DATA}}
+            
+      ---
+      课表：
+      课表：{{wx_course_schedule_0.DATA}}
       ---
       
       今天是我们相识的第{{love_day.DATA}}天
