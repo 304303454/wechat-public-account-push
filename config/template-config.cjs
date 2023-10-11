@@ -11,13 +11,21 @@ const TEMPLATE_CONFIG = [
       ---
       
       城市：{{city.DATA}}
+      
       天气：{{weather.DATA}}
+      
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
       风向: {{wind_direction.DATA}}
+      
       风级: {{wind_scale.DATA}}
+      
       湿度：{{shidu.DATA}}
+      
       空气质量：{{aqi.DATA}}
+      
       预防感冒提醒：{{ganmao.DATA}}
+      
       天气温馨语：{{notice.DATA}}
       
       ---
