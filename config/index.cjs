@@ -36,8 +36,6 @@ const USER_CONFIG = {
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'PDU25939TI9oq1V9T5Nn3TGCp4BYSzTzowPnXMsDM',
-    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 1,
   },
   USERS: [
     {
