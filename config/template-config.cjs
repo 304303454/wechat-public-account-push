@@ -30,15 +30,15 @@ const TEMPLATE_CONFIG = [
 
       **课表：**
       
-      1.{{wx_course_schedule_0.DATA}}
+      第一节.{{wx_course_schedule_0.DATA}}
       
-      2.{{wx_course_schedule_1.DATA}}
+      第二节.{{wx_course_schedule_1.DATA}}
       
-      3.{{wx_course_schedule_2.DATA}}
+      第三节.{{wx_course_schedule_2.DATA}}
       
-      4.{{wx_course_schedule_3.DATA}}
+      第四节.{{wx_course_schedule_3.DATA}}
       
-      5.{{wx_course_schedule_4.DATA}}
+      第五节.{{wx_course_schedule_4.DATA}}
 
 ---
 
